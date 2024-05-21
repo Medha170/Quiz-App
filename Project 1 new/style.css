@@ -47,14 +47,21 @@ body{
     justify-content: space-between;
 }
 
-#progress-bar-container{
+#progress-bar-container {
+    width: 100%;
+    background-color: #f3f3f3;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 20px 0;
     border : solid 2px #5AB2FF;
-    height : 20px;
-    width : 100px;
 }
 
-#progress-bar{
+#progress-bar {
+    height: 20px;
     background-color: #5AB2FF;
+    width: 50px;
+    border-radius: 5px;
+    border: solid 1px #5AB2FF;
 }
 
 #score-num{
