@@ -32,7 +32,7 @@ let score = 0;
 let questionNumElement = document.getElementById('question-num');
 let scoreNumElement = document.getElementById('score-num');
 let progressBarElement = document.getElementById('progress-bar');
-let scoreElement = document.querySelector('.score');
+// let scoreElement = document.querySelector('.score');
 
 function shuffleQuestions(array) {
     for (let i = array.length - 1; i > 0; i--) {
@@ -99,4 +99,4 @@ function updateProgressBar() {
 
 loadNextQuestion();
 
-scoreElement.innerText = score;
+// scoreElement.innerText = localStorage.getItem('mostRecentScore') || 0;
